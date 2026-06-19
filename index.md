@@ -1,13 +1,12 @@
 # Be Better — Privacy Policy
 
-> I might not always know what I'm doing. But I know one thing for sure: I don't
-> want your data. I never receive it, I never see it — I wouldn't even know how to
-> reach it if I tried. That was never the point.
+> Hi, it's me — the creator of Be Better. I'm really glad you're here.
 >
-> The point is you. I just want you to **be better** — or, on the hard days, at
-> least not worse.
+> This app doesn't collect your personal data, and it doesn't scan you. We don't
+> see it, we don't store it. My only goal is to help you **be better**.
 >
-> Free. No ads. No foul play. Forever.
+> You'll find my email below — please don't be shy, write to me anytime. Have a
+> wonderful day!
 
 **Effective date:** June 20, 2026
 **Last updated:** June 20, 2026
