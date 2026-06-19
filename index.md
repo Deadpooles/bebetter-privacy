@@ -1,5 +1,11 @@
 # Be Better — Privacy Policy
 
+> I might not know what I'm doing, but I don't need your data. I don't receive
+> it, I don't see it, I don't even know how I would get it — I just want you to
+> become the best version of yourself.
+>
+> Free, no ads, no harm. Forever.
+
 **Effective date:** June 20, 2026
 **Last updated:** June 20, 2026
 
