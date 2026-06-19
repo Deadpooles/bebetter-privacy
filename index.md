@@ -11,32 +11,34 @@
 **Effective date:** June 20, 2026
 **Last updated:** June 20, 2026
 
-Be Better is an offline-first fitness, wellness and cognitive-habit app. It runs
-on your device. We — the developer — operate **no servers, no user accounts of
-our own, and no advertising**. We do not collect, sell, or share your personal
-data. This page explains exactly what data the app touches, where it stays, and
-the few cases where data leaves your device — always under your control.
+Be Better is an offline-first app for fitness, wellness and better daily habits,
+and it lives on your phone — not on some server out there. I don't run servers, I
+don't keep accounts for you, and there are no ads. I don't collect, sell, or
+share your personal data; honestly, I built it so that I couldn't even if I
+wanted to. Below I'll walk you through exactly what the app touches, where it
+stays, and the handful of moments anything leaves your phone — every one of them
+your choice.
 
 **Contact:** deadpooles201@gmail.com
 
 ---
 
-## 1. Data stored on your device
+## 1. What stays on your phone
 
-Everything you create in the app — quests, workouts, habit and dependency logs,
-XP and streaks, body metrics (weight, body-fat %), and your preferences — is
-stored **only in local storage on your phone**. It is never sent to us.
-Uninstalling the app deletes this data (make a backup first if you want to keep
-it).
+Everything you create — your quests, workouts, habit and dependency logs, XP and
+streaks, body metrics like weight and body-fat %, and your settings — lives
+**only in the app's storage on your phone**. None of it travels to me. If you
+uninstall the app it's gone for good, so make a backup first if you'd like to
+keep it.
 
-## 2. Health Connect data (read-only)
+## 2. Health data from Health Connect (read-only)
 
-With your explicit permission, Be Better reads health and fitness data from
-**Android Health Connect** to personalize your experience — for example, to
-adapt workouts and to show recovery, sleep and activity insights. The app
-**only reads** from Health Connect; it never writes to it.
+If — and only if — you give permission, Be Better reads health and fitness data
+from **Android Health Connect** so it can tailor things to you: adapting your
+workouts, showing recovery, and making sense of your sleep and activity. It only
+ever **reads**. It never writes anything back to Health Connect.
 
-Data types the app may read:
+Here's everything it might read:
 
 - **Activity:** steps, distance, floors climbed, active calories, total
   calories, basal metabolic rate, activity intensity, exercise / workouts
@@ -48,78 +50,82 @@ Data types the app may read:
 - **Intake:** hydration, nutrition
 - **Reproductive health:** menstruation
 
-How this data is handled:
+And here's my promise about all of it:
 
-- It is **processed entirely on your device.**
-- It is **never transmitted to us or to any third party.**
-- It is **not included in any backup file.** If you move to a new phone, the app
-  re-reads it from Health Connect on that device; we never copy it off-device.
-- You can **revoke access at any time** in Health Connect settings; the app
-  stops reading immediately.
+- It's worked through **entirely on your phone.**
+- It's **never sent** to me or to anyone else.
+- It's **never put into a backup.** Switch phones and the app simply reads it
+  fresh from Health Connect there — I never carry it off your device.
+- You can **take that permission back any time** in Health Connect settings, and
+  the app stops reading the moment you do.
 
-> Note: the current development version requests the full set of permissions
-> above so each feature can be evaluated on a real device. You grant only what
-> you choose, and any permission you do not grant reads nothing.
+> A small honesty note: the current development build asks for the whole list
+> above so I can test every feature on a real phone. You only ever grant what you
+> choose, and anything you don't grant stays unread.
 
-## 3. Optional Google Drive backup
+## 3. Optional backup to your own Google Drive
 
-If you choose to sign in with Google and turn on backup, the app writes a single
-backup file (`be_better_backup.json`) into the hidden, app-private
-`appDataFolder` of **your own Google Drive**.
+If you decide to sign in with Google and switch on backup, the app saves a single
+file (`be_better_backup.json`) into a hidden, app-only corner (`appDataFolder`)
+of **your own Google Drive**.
 
-- It happens **only when you explicitly trigger a backup.**
-- The file contains your app data (quests, logs, XP, body metrics, settings).
-  It does **not** contain Health Connect data.
-- It goes to **your** Google account — **not to us.** We run no server and can
-  never receive or access this file.
-- Your Google sign-in is used **solely as the key to your own Drive.** We do not
-  create a "Be Better account" for you.
-- You can **delete the backup** from inside the app or from your Google Drive at
-  any time.
-- Transport is encrypted (HTTPS / TLS). Google's handling of files in your Drive
-  is governed by [Google's Privacy Policy](https://policies.google.com/privacy).
+- It only happens **when you ask for it.**
+- The file holds your app data — quests, logs, XP, body metrics, settings. It
+  does **not** hold your Health Connect data.
+- It goes to **your** Google account, **never to me.** I have no server, so I
+  can't receive it or open it even by accident.
+- Signing in with Google is just the **key to your own Drive** — I don't create a
+  "Be Better account" for you.
+- You can **delete the backup** from inside the app, or straight from your Google
+  Drive, whenever you want.
+- It travels encrypted (HTTPS / TLS). Once it's sitting in your Drive, Google's
+  own [Privacy Policy](https://policies.google.com/privacy) covers how Google
+  handles it.
 
-## 4. City search (Open-Meteo)
+## 4. Searching for your city (Open-Meteo)
 
-When you search for a city — to set your location for sleep and daylight
-calculations — the **city name you type** is sent to the
-[Open-Meteo](https://open-meteo.com/) geocoding API to look up coordinates. This
-happens **only while you actively search.** No identity, account, or other data
-is sent — just the text query. The resulting coordinates are stored on your
-device, and all further calculations run offline. See
-[Open-Meteo's terms](https://open-meteo.com/en/terms).
+When you look up a city — so the app can work out your sunrise, sunset and sleep
+timing — the **city name you type** is sent to the
+[Open-Meteo](https://open-meteo.com/) geocoding service to find its coordinates.
+That only happens **while you're actively searching**, and all that's sent is the
+text you typed: no name, no account, nothing else. The coordinates come back, get
+stored on your phone, and everything after that is calculated offline. You can
+read Open-Meteo's [terms here](https://open-meteo.com/en/terms).
 
-## 5. Crash reports and usage statistics
+## 5. Crash reports and usage stats
 
-The app currently collects **neither.** If crash reporting or anonymous usage
-statistics are added in the future, they will be **off by default** and require
-your **explicit opt-in.** They would never include your name, your entries, or
-anything identifying you — only anonymous, aggregate signals (for example, how
-many people use a particular screen) used to fix bugs and improve the app.
+Right now, the app gathers **neither.** If I ever add crash reporting or
+anonymous usage stats, they'll be **off by default** and will only ever turn on
+if **you** choose to switch them on. Even then they'd never carry your name, your
+entries, or anything that points to you — just anonymous, big-picture signals
+(like how many people open a certain screen) that help me squash bugs and make
+the app better for you.
 
-## 6. No ads, no tracking, no sale
+## 6. No ads, no tracking, no selling
 
-The app contains no advertising SDKs, no third-party analytics, and no tracking
-identifiers. We do not sell or share your data — because we never receive it.
+There are no ad networks, no third-party analytics, and no tracking IDs anywhere
+in the app. I don't sell or share your data — there's nothing on my side to sell,
+because it never reaches me in the first place.
 
 ## 7. Children
 
-Be Better is not directed at children under 13 and collects no data from anyone.
+Be Better isn't aimed at children under 13, and it collects no data from anyone.
 
-## 8. Your control
+## 8. You're in control
 
-- All your data is local and yours.
-- You can export or back up at any time — the backup is a plain, documented JSON
-  file you can open without the app.
-- You can revoke Health Connect or Google permissions at any time in system
+- Your data is local, and it's yours.
+- Back it up or export it whenever — the backup is a plain, documented JSON file
+  you can open without the app.
+- Pull back any Health Connect or Google permission any time in your system
   settings.
-- Uninstalling the app removes all local data.
+- Uninstall, and every bit of local data goes with it.
 
-## 9. Changes to this policy
+## 9. If this policy ever changes
 
-If this policy changes, the updated version will be posted at this URL with a new
-"Last updated" date.
+If anything here changes, I'll post the updated version at this same address and
+bump the "Last updated" date at the top.
 
-## 10. Contact
+## 10. Say hi
 
-Questions about privacy: **deadpooles201@gmail.com**
+Anything on your mind about privacy — or just want to say hello? Write to me at
+**deadpooles201@gmail.com**. I read every message.
