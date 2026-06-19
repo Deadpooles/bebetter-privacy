@@ -1,10 +1,13 @@
 # Be Better — Privacy Policy
 
-> I might not know what I'm doing, but I don't need your data. I don't receive
-> it, I don't see it, I don't even know how I would get it — I just want you to
-> become the best version of yourself.
+> I might not always know what I'm doing. But I know one thing for sure: I don't
+> want your data. I never receive it, I never see it — I wouldn't even know how to
+> reach it if I tried. That was never the point.
 >
-> Free, no ads, no harm. Forever.
+> The point is you. I just want you to **be better** — or, on the hard days, at
+> least not worse.
+>
+> Free. No ads. No foul play. Forever.
 
 **Effective date:** June 20, 2026
 **Last updated:** June 20, 2026
