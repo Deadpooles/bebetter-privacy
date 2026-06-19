@@ -59,9 +59,9 @@ And here's my promise about all of it:
 - You can **take that permission back any time** in Health Connect settings, and
   the app stops reading the moment you do.
 
-> A quick honesty note: the current development build asks for the whole list
-> above so I can test every feature on a real phone. You only ever grant what you
-> choose, and anything you don't grant stays unread.
+> A quick honesty note: that's a wide list, but it's only what the app *can*
+> read, never what it quietly takes. You grant exactly what you choose, and
+> anything you don't grant stays completely unread.
 
 ## 3. Optional backup to your own Google Drive
 
