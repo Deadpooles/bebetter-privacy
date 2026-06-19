@@ -11,13 +11,13 @@
 **Effective date:** June 20, 2026
 **Last updated:** June 20, 2026
 
-Be Better is an offline-first app for fitness, wellness and better daily habits,
-and it lives on your phone — not on some server out there. I don't run servers, I
-don't keep accounts for you, and there are no ads. I don't collect, sell, or
-share your personal data; honestly, I built it so that I couldn't even if I
-wanted to. Below I'll walk you through exactly what the app touches, where it
-stays, and the handful of moments anything leaves your phone — every one of them
-your choice.
+Be Better is a small app for your body, your mind, and the everyday habits in
+between. It lives entirely on your phone — there's no server somewhere with your
+name on it. I don't keep accounts, there are no ads, and I never collect, sell,
+or hand off anything about you. Honestly, I made it so that I couldn't, even if
+one day I wanted to. Below I'll just walk you through what the app touches, where
+it stays, and the few moments anything ever leaves your phone — and every one of
+those is your call.
 
 **Contact:** deadpooles201@gmail.com
 
