@@ -9,7 +9,7 @@
 > wonderful day!
 
 **Effective date:** June 20, 2026
-**Last updated:** June 20, 2026
+**Last updated:** July 14, 2026
 
 Be Better is an app for your body, your mind, and the everyday habits in between.
 It lives entirely on your phone, and there's no server somewhere with your name
@@ -54,8 +54,11 @@ And here's my promise about all of it:
 
 - It's worked through **entirely on your phone.**
 - It's **never sent** to me or to anyone else.
-- It's **never put into a backup.** Switch phones and the app simply reads it
-  fresh from Health Connect there, and I never carry it off your device.
+- It goes into a backup **only if you tick "Include health data" when
+  exporting.** The box starts unticked and stays exactly how you set it. Even
+  then, the backup goes only to a file you choose or to your own Google Drive,
+  never to me. Leave it unticked, and switching phones simply means the app
+  reads everything fresh from Health Connect there.
 - You can **take that permission back any time** in Health Connect settings, and
   the app stops reading the moment you do.
 
@@ -70,8 +73,9 @@ file (`be_better_backup.json`) into a hidden, app-only corner (`appDataFolder`)
 of **your own Google Drive**.
 
 - It only happens **when you ask for it.**
-- The file holds your app data: quests, logs, XP, body metrics, and settings. It
-  does **not** hold your Health Connect data.
+- The file holds your app data: quests, logs, XP, body metrics, and settings.
+  Health Connect data is included **only if you ticked "Include health data"**
+  when making the backup; otherwise it stays out.
 - It goes to **your** Google account, **never to me.** I have no server, so I
   can't receive it or open it even by accident.
 - Signing in with Google is just the **key to your own Drive.** I don't create a
@@ -129,3 +133,4 @@ bump the "Last updated" date at the top.
 
 Anything on your mind about privacy, or just want to say hello? Write to me at
 **deadpooles201@gmail.com**. I read every message.
+
